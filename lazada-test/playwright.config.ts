@@ -13,6 +13,7 @@ export default defineConfig({
   reporter: 'html',
 
   use: {
+    storageState: 'playwright/.auth/user.json',
     actionTimeout: 20_000,       // mỗi thao tác (click, fill) chờ tối đa 20 giây
     navigationTimeout: 60_000,   // mở trang chờ tối đa 60 giây
     screenshot: 'only-on-failure',
