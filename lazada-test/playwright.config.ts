@@ -26,6 +26,6 @@ export default defineConfig({
 
     // Bỏ dấu // ở 2 dòng dưới khi làm ORDER-030 (Firefox) hoặc SEARCH-012:
     // { name: 'firefox', use: { ...devices['Desktop Firefox'] } },
-    // { name: 'edge', use: { ...devices['Desktop Edge'], channel: 'msedge' } },
+    { name: 'edge', use: { ...devices['Desktop Edge'], channel: 'msedge' } },
   ],
 });
